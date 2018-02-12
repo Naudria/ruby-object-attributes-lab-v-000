@@ -7,7 +7,7 @@ class Dog
     @name
   end
 
-  name = name.new("fido")
+  name = Dog.name("fido")
   puts Dog.name
 
   def initialize(breed)
